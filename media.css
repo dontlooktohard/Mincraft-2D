@@ -1,0 +1,48 @@
+@media (max-width: 350px) and (min-width: 1200px) {
+    .side-bar {
+      background-color: #383d48;
+      display: flex;
+      gap: 0rem;
+      border-left: 2px solid white;
+    }
+    .tools-div {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .tool-box {
+      border: 1px solid white;
+    }
+  
+    .trash {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .all-btn {
+      display: flex;
+      flex-direction: column;
+      gap: 0rem;
+      margin-top: 0rem;
+    }
+  
+    .btn {
+      font-size: 0.5rem;
+      border: 0rem;
+      padding: 0.5rem;
+    }
+  
+    .start-again {
+      margin: 0.2rem;
+      padding: 0rem;
+      border: 1px solid white;
+    }
+  
+    .return-main-screen {
+      margin: 0.2rem;
+      padding: 0rem;
+      border: 1px solid white;
+    }
+  }

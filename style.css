@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #383D48;
+  }
+  .main-game {
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    background: #69b0cc;
+    cursor: pointer;
+  }
+
+  .side-bar {
+    border: 3px solid lightslategray;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1rem;
+    background-color: gray;
+  } 
+
+  .tool-box {
+    border: 1px dotted white;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 0.7rem;
+  }
+  
+  .tool-box:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .tools-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .inventory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .amount {
+    border: 1px solid white;
+    text-align: center;
+    width: 3.3rem;
+    height: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .amount:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+
+  .start-again {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .btn {
+    font-family: "arial", sans-serif;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(102, 73, 35);
+    color: #3b3838;
+    font-weight: 800;
+    border: 1px solid #3b3838;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  #axe{
+    background: url('/asetss/Iron_Axe.webp') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.391);
+}
+#pickaxe{
+    background: url('/asetss/Iron_Pickaxe.webp') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.391);
+}
+#shovel{
+    background: url('/asetss/Iron_Shovel.webp') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.391);
+}
+#grass{
+    background: url('/asetss/Grass_Block.webp') no-repeat center center/cover;
+}
+#dirt{
+    background: url('/asetss/Dirt.webp') no-repeat center center/cover;
+}
+#leaves{
+    background: url('/asetss/Moss_Block.webp') no-repeat center center/cover;
+}
+#trunk_tree {
+    background: url('/asetss/Spruce_Log.webp') no-repeat center center/cover;
+}
+#log{
+    background: url('/asetss/Spruce_Log_2.webp') no-repeat center center/cover;
+}
+#gravel{
+    background: url('/asetss/Cobblestone.webp') no-repeat center center/cover;
+}

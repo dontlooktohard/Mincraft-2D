@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    
+    <title>Minecraft  2D</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-box">
+          <div class="main-game" id="main"></div>
+        </div>
+        <nav class="side-bar">
+          <nav class="tools-div">
+            <div class="tool-box pickaxe" id="pickaxe">Pickaxe</div>
+            <div class="tool-box shovel" id="shovel">Shovel</div>
+            <div class="tool-box axe" id="axe">Axe</div>
+          </nav>
+          <footer class="inventory">
+            <div class="amount" id="dirt">0</div>
+            <div class="amount" id="grass">0</div>
+            <div class="amount" id="gravel">0</div>
+            <div class="amount" id="trunk_tree">0</div>
+            <div class="amount" id="leaves">0</div>
+            <div class="amount" id="log">0</div>
+          </footer>
+          <div class="start-again">
+            <button class="btn btn-start">START AGAIN</button>
+          </div>
+        </nav>
+    </div>
+</body>
+<script src="./js/map.js"></script>
+<script src="./js/toolsSelect.js"></script>
+<script src="./js/Selector.js"></script>
+<script src="./js/events.js"></script>
+</html>
